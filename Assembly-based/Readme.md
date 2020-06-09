@@ -53,4 +53,5 @@ quast -o /home/assembly-based/assembly/quast/\
 /home/assembly-based/assembly/metaspades/contigs.fasta
 ```
 if you have small contigs interfering in your data you can filter there with the filter contigs script. 
-filtercontigs.py
+
+[filter contigs script](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Assembly-based/scripts/filtercontigs.py)
