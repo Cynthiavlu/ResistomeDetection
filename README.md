@@ -1,4 +1,4 @@
-# ResistomeDetection
+# Resistome Detection
 
 Antibiotic resistance is becoming a bigger problem worldwide. 
 With this knowledge a study was performed about the resistome in stool samples of hospitalised patients. 
