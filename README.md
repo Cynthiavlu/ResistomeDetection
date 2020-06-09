@@ -5,7 +5,7 @@ With this knowledge a study was performed about the resistome in stool samples o
 With the following flowchart, this study was realised. 
 
 This pipeline is build into two pathways; the assembly-based analysis and the read-based analysis. 
-*INSERT FLOWCHART* 
+![Flowchart](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Flowchart%20V6.jpg?raw=true)
 
 # Table of Contents
 - pre analysis 
