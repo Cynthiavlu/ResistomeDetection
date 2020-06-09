@@ -71,3 +71,9 @@ abricate --db argannot --minid 90 --mincov 60\
 /home/assembly-based/assembly/trimmeddata/filteredcontigs/longcontigs.trimmed.fasta > \
 /home/assembly-based/abricate/trimmeddata/filteredcontigs/longcontigs/abricate_argannot_trlong.csv
 ```
+
+Due to different annotation in the different databases used with abricate, a python script was made in order to clean up the summart file.
+
+For example, Three Cbla genes were found within the different databases but were seen as different genes because of there annotation: (Bla)cbla, Cbla_1, cbla. With the following script some of those were filtered en cleaned for the obtained data file 
+
+[filecleaning script](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Assembly-based/scripts/file_cleaning.py)
