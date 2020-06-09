@@ -55,3 +55,16 @@ quast -o /home/assembly-based/assembly/quast/\
 if you have small contigs interfering in your data you can filter there with the filter contigs script. 
 
 [filter contigs script](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Assembly-based/scripts/filtercontigs.py)
+
+## Abricate 
+Abricate was used for antibiotic resistance detection. 
+This was run in a shell script.
+*insert link* 
+
+this is an example of our command for abricate. complete script can be found *link* 
+
+#run abricate with argannot
+echo "run with argannot"
+abricate --db argannot --minid 90 --mincov 60\
+/home/assembly-based/assembly/trimmeddata/filteredcontigs/longcontigs.trimmed.fasta > \
+/home/assembly-based/abricate/trimmeddata/filteredcontigs/longcontigs/abricate_argannot_trlong.csv
