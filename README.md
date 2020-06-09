@@ -7,3 +7,9 @@ With the following flowchart, this study was realised.
 This pipeline is build into two pathways; the assembly-based analysis and the read-based analysis. 
 *INSERT FLOWCHART* 
 
+# Table of Contents
+- pre analysis 
+- read-based analysis 
+- assembly-based analysis 
+
+
