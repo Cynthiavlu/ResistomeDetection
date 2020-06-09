@@ -8,8 +8,7 @@ This pipeline is build into two pathways; the assembly-based analysis and the re
 ![Flowchart](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Flowchart%20V6.jpg?raw=true)
 
 # Table of Contents
-- pre analysis 
-- read-based analysis 
-- assembly-based analysis 
-
-
+# Pre-analysis 
+# Read-based analysis 
+# Assembly-based
+* [assembly-based analysis](#Assembly-based)
