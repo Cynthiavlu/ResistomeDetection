@@ -59,9 +59,11 @@ if you have small contigs interfering in your data you can filter there with the
 ## Abricate 
 Abricate was used for antibiotic resistance detection. 
 This was run in a shell script.
-*insert link* 
 
-this is an example of our command for abricate. complete script can be found *link* 
+
+this is an example of our command for abricate. complete script can be found here 
+[abricate script](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Assembly-based/scripts/runabricate.sh)
+
 ```
 #run abricate with argannot
 echo "run with argannot"
