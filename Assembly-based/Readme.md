@@ -62,9 +62,10 @@ This was run in a shell script.
 *insert link* 
 
 this is an example of our command for abricate. complete script can be found *link* 
-
+```
 #run abricate with argannot
 echo "run with argannot"
 abricate --db argannot --minid 90 --mincov 60\
 /home/assembly-based/assembly/trimmeddata/filteredcontigs/longcontigs.trimmed.fasta > \
 /home/assembly-based/abricate/trimmeddata/filteredcontigs/longcontigs/abricate_argannot_trlong.csv
+```
