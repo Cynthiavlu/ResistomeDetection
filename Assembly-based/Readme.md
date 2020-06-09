@@ -61,7 +61,7 @@ Abricate was used for antibiotic resistance detection.
 This was run in a shell script.
 
 
-this is an example of our command for abricate. complete script can be found here 
+This is an example of our command for abricate. complete script can be found here: 
 [abricate script](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Assembly-based/scripts/runabricate.sh)
 
 ```
