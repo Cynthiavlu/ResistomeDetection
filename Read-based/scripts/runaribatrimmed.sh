@@ -12,7 +12,7 @@ ariba getref argannot out.argannot
 ariba prepareref -f out.argannot.fa -m out.argannot.tsv out.argannot.prepareref 
 
 #Run ariba against samples 
-ariba run out.argannot.prepareref \
+ariba run out.argannot.prepareref \ --assembly_cov 60 --nucmer_min_id 90
 /home/data/trimmeddata/file_R1_paired.fastq \
 /home/data/trimmeddata/file_R2_paired.fastq \
 /home/read-based/ariba/out_arg_trimmed.run
@@ -31,7 +31,7 @@ ariba getref card out.card
 ariba prepareref -f out.card.fa -m out.card.tsv out.card.prepareref 
 
 #Run ariba against samples 
-ariba run out.card.prepareref \
+ariba run out.card.prepareref \ --assembly_cov 60 --nucmer_min_id 90
 /home/data/trimmeddata/file_R1_paired.fastq \
 /home/data/trimmeddata/file_R2_paired.fastq \
 /home/read-based/ariba/out_card_trimmed.run
@@ -50,7 +50,7 @@ ariba getref ncbi out.ncbi
 ariba prepareref -f out.ncbi.fa -m out.ncbi.tsv out.ncbi.prepareref 
 
 #Run ariba against samples 
-ariba run out.ncbi.prepareref \
+ariba run out.ncbi.prepareref \ --assembly_cov 60 --nucmer_min_id 90
 /home/data/trimmeddata/file_R1_paired.fastq \
 /home/data/trimmeddata/file_R2_paired.fastq \
 /home/read-based/ariba/out_ncbi_trimmed.run
@@ -70,7 +70,7 @@ ariba getref resfinder out.resfinder
 ariba prepareref -f out.resfinder.fa -m out.resfinder.tsv out.resfinder.prepareref 
 
 #Run ariba against samples 
-ariba run out.resfinder.prepareref \
+ariba run out.resfinder.prepareref \ --assembly_cov 60 --nucmer_min_id 90
 /home/data/trimmeddata/file_R1_paired.fastq \
 /home/data/trimmeddata/file_R2_paired.fastq \
 /home/read-based/ariba/out_resfinder_trimmed.run
