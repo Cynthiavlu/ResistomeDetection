@@ -42,7 +42,8 @@ trimmomatic PE -phred33 -summary trimsummary.txt \
 ILLUMINACLIP:contams_forward_rev.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
 Trimmomatic was run in paired end mode and was set to make a summary of the trimming. 
-For al the other options, I refer to the trimmomatic manual at the bodom of this page
+
+For all the other options, I refer to the trimmomatic manual at the bodom of this page
 
 
 ## External links
