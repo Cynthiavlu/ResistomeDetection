@@ -59,7 +59,6 @@ ariba run out.ncbi.prepareref \ --assembly_cov 60 --nucmer_min_id 90
 echo "it worked"
 ls -la 
 
-
 #Run with resfinder 
 echo "running with resfinder"
 
