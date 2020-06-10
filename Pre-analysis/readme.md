@@ -10,10 +10,6 @@ We called this part the pre-analysis.
 * [FastQC](#FastQC)
 * [Trimmomatic](#Trimmomatic)
 
-# Dependencies 
-- Fastqc --> java 
-- trimmomatic 
-
 # Installation
 for the installation of the tools the following 
 
