@@ -6,9 +6,18 @@ After trimming, the assembly based analysis is continued with a few tools:
 - Abricate 
 
 ## Dependencies 
+### MetaSPAdes 
+- Python3 v3.2 or higher 
 
+### Quast 
+- Python3 v3.3 or higher
+- Perl 5.6.0 or higher
+- GCC 4.7 or higher
+- GNU make and ar
+- zlib development files
 
-
+### Abricate
+- BLAST+ >= 2.7 and any2fasta
 
 ## Installation 
 ```
@@ -77,3 +86,13 @@ Due to different annotation in the different databases used with abricate, a pyt
 For example, Three Cbla genes were found within the different databases but were seen as different genes because of there annotation: (Bla)cbla, Cbla_1, cbla. With the following script some of those were filtered en cleaned for the obtained summary file 
 
 [filecleaning script](https://github.com/Cynthiavlu/ResistomeDetection/blob/master/Assembly-based/scripts/file_cleaning.py)
+
+# External links 
+## MetaSPAdes 
+[github link](https://github.com/ablab/spades)
+
+## Quast
+[Github link](https://github.com/ablab/quast)
+
+## Abricate
+[Github link](https://github.com/tseemann/abricate)
