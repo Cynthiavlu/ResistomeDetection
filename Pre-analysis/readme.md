@@ -56,3 +56,4 @@ ILLUMINACLIP:contams_forward_rev.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4
 ### Trimmomatic 
 * [Source link](http://www.usadellab.org/cms/?page=trimmomatic)
 * [Github link](https://github.com/timflutre/trimmomatic)
+* [Manual](http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/TrimmomaticManual_V0.32.pdf)
