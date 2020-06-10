@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH -t 1:00:00
+#SBATCH -c 16
+
+ariba summary summary_out \
+/home/atgm2027/project_forreal/out_raw_argannot.run/report.tsv \
+/home/atgm2027/out_trimmed_argannot.run/report.tsv \
+/home/atgm2027/project_forreal/out_raw_ncbi.run/report.tsv \
+/home/atgm2027/project_forreal/out_trimmed_ncbi.run/report.tsv \
+/home/atgm2027/project_forreal/out_raw_card.run/report.tsv \
+home/atgm2027/project_forreal/out_trimmed_card.run/report.tsv \
+/home/atgm2027/project_forreal/out_raw_resfinder.run/report.tsv \
+/home/atgm2027/project_forreal/out_trimmed_resfinder.run/report.tsv
+
+
