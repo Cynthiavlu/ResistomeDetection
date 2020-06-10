@@ -5,7 +5,6 @@ Before you can start the read of the assembly-based part of the pipeline, you ne
 We called this part the pre-analysis. 
 # Table of Contents 
 
-* [Dependencies](#Dependencies)
 * [Installation](#Installation)
 * [FastQC](#FastQC)
 * [Trimmomatic](#Trimmomatic)
