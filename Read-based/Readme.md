@@ -35,7 +35,29 @@ Installing ARIBA with pip3 will get these automatically if not installed:
  pip3 install ariba
  ```
 
-  
+## Run with Ariba 
+To run with ariba, the following command was used. 
+This is one example, but was ultimatly run with several databases. 
+Script can be found here *insert link* 
+```
+#get database 
+ariba getref argannot out.argannot
+
+#prepare reference data 
+ariba prepareref -f out.argannot.fa -m out.argannot.tsv out.argannot.prepareref 
+
+#Run ariba against samples 
+ariba run out.argannot.prepareref reads1.fastq reads2.fastq out.run
+ ```
+ 
+you can also get a summary file after the run 
+for example: 
+
+```
+ariba summary out.summary out.run1/report1.tsv out.run2/report2.tsv out.run3/report3.tsv
+```
+
   
  # External Link 
  [Github link](https://github.com/sanger-pathogens/ariba)
+ [Github wiki](https://github.com/sanger-pathogens/ariba/wiki)
