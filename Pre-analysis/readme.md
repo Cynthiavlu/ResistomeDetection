@@ -24,14 +24,19 @@ conda install trimmomatic
 
 # FastQC
 
-fastqc -o RESULT-DIR INPUT-FILE.[txt/fa/fq]
+```
+fastqc -o output-dir input-file.[txt/fa/fq]
 
 fastqc -o /home/fastqc/ /home/data/file-R*.fastq
-
+```
 
 # Trimmomatic 
 This was run in a shell script. 
 ```
+#!/bin/bash
+#SBATCH -t 2:00:00
+#SBATCH -c 16
+
 trimmomatic PE -phred33 -summary trimsummary.txt \
 /home/data/file_R1.fastq \
 /home/data/file_R2.fastq \
@@ -41,9 +46,6 @@ trimmomatic PE -phred33 -summary trimsummary.txt \
 /home/trimmeddata/file_R2_unpaired.fastq \
 ILLUMINACLIP:contams_forward_rev.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
 ```
-
-
-
 
 
 ## External links
